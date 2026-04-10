@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#08111a" />
+    <meta name="description" content="Fale com a Sunerg Solar e peça um orçamento para seu projeto fotovoltaico." />
+    <link rel="canonical" href="https://solarsunerg.com/contate-nos/" />
+    <link rel="stylesheet" href="/src/site.css" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <title>Contato | Sunerg Solar</title>
+  </head>
+  <body>
+    <div class="page-shell">
+      <main class="section section--stacked">
+        <span class="eyebrow">Contato</span>
+        <h1 class="page-title">Peça uma análise do seu cenário.</h1>
+        <p class="page-intro">Envie sua conta, fale com o comercial e receba um direcionamento inicial para seu projeto solar.</p>
+        <div class="contact-grid" style="margin-top: 1.5rem;">
+          <section class="form-card">
+            <h2 class="card-title">Formulário</h2>
+            <form name="sunerg-contact" method="POST" data-netlify="true" action="/obrigado/">
+              <input type="hidden" name="form-name" value="sunerg-contact" />
+              <label>Nome<br /><input type="text" name="name" required /></label><br /><br />
+              <label>E-mail<br /><input type="email" name="email" required /></label><br /><br />
+              <label>WhatsApp<br /><input type="text" name="phone" required /></label><br /><br />
+              <label>Mensagem<br /><textarea name="message" rows="6" required></textarea></label><br /><br />
+              <button class="form-button" type="submit">Enviar</button>
+            </form>
+          </section>
+          <aside class="panel">
+            <h2 class="card-title">Contato direto</h2>
+            <p>WhatsApp: 11 93931-3310 / 11 97864-9284</p>
+            <p>E-mail: comercial@solarsunerg.com</p>
+            <p>Rua Emilio Lehmann 740 - Estância São Francisco, Itapevi - SP</p>
+          </aside>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
